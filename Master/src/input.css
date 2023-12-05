@@ -93,6 +93,9 @@ Version      : 1.0.1
     position: fixed;
     z-index: 0;
   }
+  .wow {
+    visibility: hidden;
+  }
 }
 
 /* Back to top */

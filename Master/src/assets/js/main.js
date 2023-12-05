@@ -110,7 +110,14 @@
   }
 
   //! 14. Wow Js
-  new WOW().init();
+  var wow = new WOW({
+    boxClass: "wow",
+    animateClass: "animated",
+    offset: 0,
+    mobile: true,
+    live: true,
+  });
+  wow.init();
 
   $("[data-background").each(function () {
     $(this).css(

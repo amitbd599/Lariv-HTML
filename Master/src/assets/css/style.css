@@ -761,6 +761,10 @@ main {
   z-index: 0;
 }
 
+.wow {
+  visibility: hidden;
+}
+
 .visible {
   visibility: visible;
 }
@@ -1048,40 +1052,8 @@ main {
   height: 100%;
 }
 
-.h-\[calc\(100\%\+2rem\)\] {
-  height: calc(100% + 2rem);
-}
-
-.h-\[calc\(100\%\+128\)\] {
-  height: calc(100% + 128);
-}
-
-.h-\[calc\(100\%\+128pz\)\] {
-  height: calc(100% + 128pz);
-}
-
-.h-\[calc\(100\%-128px-124px\)\] {
-  height: calc(100% - 128px - 124px);
-}
-
-.h-\[calc\(100vh-128px-124px\)\] {
-  height: calc(100vh - 128px - 124px);
-}
-
-.h-\[calc\(100vh-200px\)\] {
-  height: calc(100vh - 200px);
-}
-
-.h-\[calc\(100vh-180px\)\] {
-  height: calc(100vh - 180px);
-}
-
 .min-h-\[750px\] {
   min-height: 750px;
-}
-
-.min-h-\[calc\(100vh-180px\)\] {
-  min-height: calc(100vh - 180px);
 }
 
 .min-h-\[calc\(100vh-380px\)\] {
@@ -1126,10 +1098,6 @@ main {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[calc\(100\%\+2rem\)\] {
-  width: calc(100% + 2rem);
 }
 
 .transform {
@@ -1186,10 +1154,6 @@ main {
 
 .gap-\[10px\] {
   gap: 10px;
-}
-
-.gap-\[14px\] {
-  gap: 14px;
 }
 
 .gap-\[20px\] {
