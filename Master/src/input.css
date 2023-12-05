@@ -27,6 +27,7 @@ Version      : 1.0.1
     background: #252525;
     color: #fff;
     font-size: 15px;
+    min-height: 100vh;
   }
 
   p {
@@ -40,6 +41,10 @@ Version      : 1.0.1
   h5,
   h6 {
     font-family: "Poppins", sans-serif;
+  }
+  main {
+    position: relative;
+    z-index: 99;
   }
 }
 
@@ -80,17 +85,6 @@ Version      : 1.0.1
     top: 30px;
   }
   .bg-img {
-    background-image: url("assets/images/show/bg-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    min-height: 100vh;
-    position: fixed;
-    z-index: -1;
-  }
-  .bg-img_login {
-    background-image: url("assets/images/show/bg-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
